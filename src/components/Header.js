@@ -27,11 +27,11 @@ function Header() {
         </div>
         {mobileMenuOpen && (
           <div className="md:hidden mt-4 space-y-4">
-             <a href="#home" className="hover:text-yellow-300 transition">D'accueil</a>
-            <a href="#why-us" className="hover:text-yellow-300 transition">Pourquoi Nous Choisir</a>
-            <a href="#pricing" className="hover:text-yellow-300 transition">Tarifs</a>
-            <a href="#testimonials" className="hover:text-yellow-300 transition">Témoignages</a>
-            <a href="#contact" className="hover:text-yellow-300 transition">Contactez-nous</a>
+            <a href="#home" className="block hover:text-yellow-300 transition">D'accueil</a>
+            <a href="#why-us" className="block hover:text-yellow-300 transition">Pourquoi Nous Choisir</a>
+            <a href="#pricing" className="block hover:text-yellow-300 transition">Tarifs</a>
+            <a href="#testimonials" className="block hover:text-yellow-300 transition">Témoignages</a>
+            <a href="#contact" className="block hover:text-yellow-300 transition">Contactez-nous</a>
           </div>
         )}
       </div>
