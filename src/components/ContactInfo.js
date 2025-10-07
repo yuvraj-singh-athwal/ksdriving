@@ -1,4 +1,4 @@
-import { Mail,Phone,MapPin } from "react-feather";
+import { Mail,Phone,MapPin, Clock } from "react-feather";
 function ContactInfo() {
   return (
     <section id="contact" className="py-16 bg-blue-900 text-white">
@@ -28,6 +28,14 @@ function ContactInfo() {
                 <h3 className="font-bold">Courriel</h3>
                 <a href="mailto:ksdrivingschool16@gmail.com" target="_blank">ksdrivingschool16@gmail.com</a>
               </div>
+            </div>
+            <div className="flex items-center">
+              <Clock className="w-6 h-6 mr-4"></Clock>
+              <div>
+                <h3 className="font-bold">Heures d'Ouverture</h3>
+                <p>Monday - Sunday<br />10h00 - 18h00</p>
+              </div>
+
             </div>
           </div>
         </div>
