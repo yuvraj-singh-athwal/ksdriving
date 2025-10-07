@@ -6,7 +6,7 @@ function Testimonial({ quote, author }) {
       <div className="text-yellow-400 mb-4">
         {[...Array(5)].map((_, i) => (
           <i key={i}>
-            <Star className="inline-block w-5 h-5 mr-1"></Star>
+            <Star className="inline-block w-5 h-5 mr-1" fill='#FFEE58'></Star>
           </i>
         ))}
       </div>
