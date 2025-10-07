@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Truck } from 'react-feather';
+import { Truck, X, Menu } from 'react-feather';
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
@@ -21,7 +21,8 @@ function Header() {
             className="md:hidden text-white"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            <i data-feather={mobileMenuOpen ? "x" : "menu"}></i>
+            
+            {mobileMenuOpen ? <X></X> : <Menu></Menu>}
           </button>
         </div>
         {mobileMenuOpen && (
