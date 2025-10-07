@@ -32,7 +32,7 @@ function ContactInfo() {
             <div className="flex items-center">
               <Clock className="w-6 h-6 mr-4"></Clock>
               <div>
-                <h3 className="font-bold">Heures d'Ouverture</h3>
+                <h3 className="font-bold">Horaires d'Ouverture</h3>
                 <p>Monday - Sunday<br />10h00 - 18h00</p>
               </div>
 
