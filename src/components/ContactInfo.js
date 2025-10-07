@@ -33,7 +33,7 @@ function ContactInfo() {
               <Clock className="w-6 h-6 mr-4"></Clock>
               <div>
                 <h3 className="font-bold">Horaires d'Ouverture</h3>
-                <p>Monday - Sunday<br />10h00 - 18h00</p>
+                <p>Lundi - Dimanche<br />10h00 - 18h00</p>
               </div>
 
             </div>
