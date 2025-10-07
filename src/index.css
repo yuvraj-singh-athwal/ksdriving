@@ -1,0 +1,9 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.truck-bg {
+  background-image: url('https://huggingface.co/spaces/obstin8/react-rainbow-rodeo/resolve/main/images/truck-on-road-orange-sunset.jpg');
+  background-size: cover;
+  background-position: center;
+}
